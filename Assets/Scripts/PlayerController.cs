@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speedX = -1f;
     [SerializeField] private Animator animator;
     [SerializeField] private Transform playerModelTransform;
+    [SerializeField] private GameObject gameOverCanvas;
 
 
     private FixedJoystick _fixedJoystick;
@@ -62,6 +63,11 @@ public class PlayerController : MonoBehaviour
         {
             Flip();
         }
+        if(_rb.position.y < -10f)
+        {
+            Die();
+            
+        }
         else if(_horizontal <0f && _isFacingRight)
         {
             Flip();
@@ -74,7 +80,12 @@ public class PlayerController : MonoBehaviour
         playerScale.x *= -1;
         playerModelTransform.localScale = playerScale;
     }
+    public void Die()
+    {
+        gameObject.SetActive(false);
+        gameOverCanvas.SetActive(true);
 
+    }
     public void Jump()
     {
         if (_isGround)

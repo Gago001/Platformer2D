@@ -8,7 +8,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private Slider healthSlider;
     [SerializeField] private Animator _animator;
     [SerializeField] private float totalhealth = 200f;
-    [SerializeField] private GameObject gamOverCanvas;
+    [SerializeField] private GameObject gameOverCanvas;
     [SerializeField] private AudioSource enemyHitSound;
 
     private float _health;
@@ -34,10 +34,10 @@ public class PlayerHealth : MonoBehaviour
     {
         healthSlider.value = _health / totalhealth;
     }
-    private void Die()
+    public void Die()
     {
         gameObject.SetActive(false);
-        gamOverCanvas.SetActive(true);
+        gameOverCanvas.SetActive(true);
 
     }
 }
