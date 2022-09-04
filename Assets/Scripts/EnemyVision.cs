@@ -6,7 +6,7 @@ public class EnemyVision : MonoBehaviour
 {
     [SerializeField] private GameObject currentHitObject;
     [SerializeField] private float circleRadius;
-    [SerializeField] private float maxDistacne;
+    [SerializeField] private float maxDistacne = 5;
     [SerializeField] private LayerMask layerMask;
 
     private EnemyController _enemyController;
