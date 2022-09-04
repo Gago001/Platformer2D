@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 26095
+  controlID: 33020
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,9 +224,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 406e0100
-      m_LastClickedID: 93760
-      m_ExpandedIDs: a82fffff6e37ffff583fffff227effffc099ffffce99ffffd899ffff5a9affffd89bffffba9effffb4a6ffffdeb6ffffb6b7ffff64c0ffff54c9ffffb6e4ffff96f4ffffaaf8ffff0afbffff0c630000fe63000040cd00002ece000000d20000c4d700005ad800007ae00000
+      m_SelectedIDs: 54f60100
+      m_LastClickedID: 128596
+      m_ExpandedIDs: 9cc3feffe8c3feff72cdfeff7ccdfeff0ad6feff22e9feffb80bffffb215ffff541dffff4825ffffa82fffff6e37ffff583fffff227effffc099ffffce99ffffd899ffff5a9affffd89bffffba9effffb4a6ffffdeb6ffffb6b7ffff64c0ffff54c9ffffb6e4ffff96f4ffffaaf8ffff0afbffff0c630000fe63000040cd00002ece000000d20000c4d700005ad800007ae0000054f6010006f9010000fd010034fd0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites
+    - Assets/Character_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Sprites
+  - Assets/Character_Pack/BURLY-MAN_1_swordsman/[ size down to 50% ]
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\37455\Documents\GitHub\Platformer2D
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 15}
-    m_SelectedIDs: f46a0000
-    m_LastClickedID: 27380
-    m_ExpandedIDs: 00000000c26a0000c46a000000ca9a3b
+    m_SelectedIDs: fa6a0000
+    m_LastClickedID: 27386
+    m_ExpandedIDs: 00000000c26a0000c46a0000e46a0000fc6a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -385,10 +385,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 406e0100
-    m_LastClickedInstanceID: 93760
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000fa6f00004a7800008e610000ba9300006242010084670000126a0000d476000062a30000487200000000000062690000344f0100
+    m_SelectedInstanceIDs: 54f60100
+    m_LastClickedInstanceID: 128596
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000fa6f00004a7800008e610000ba9300006242010084670000126a0000d476000062a30000487200000000000062690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,7 +412,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 102}
+    m_ScrollPosition: {x: 0, y: 5424}
     m_GridSize: 96
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 172.2
@@ -715,9 +715,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 46.736942, y: 9.909733, z: -4.7004576}
+    m_Target: {x: 365.07797, y: 175.46378, z: -10.285794}
     speed: 2
-    m_Value: {x: 46.736942, y: 9.909733, z: -4.7004576}
+    m_Value: {x: 365.07797, y: 175.46378, z: -10.285794}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -768,9 +768,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 37.485012
+    m_Target: 262.4202
     speed: 2
-    m_Value: 37.485012
+    m_Value: 262.4202
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -967,7 +967,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 79578
+  m_LastSelectedObjectID: 128596
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -992,7 +992,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 26006
+  controlID: 33075
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
